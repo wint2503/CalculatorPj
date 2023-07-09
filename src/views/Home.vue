@@ -1,19 +1,15 @@
 <template>
-    <Title>Calculator Pj</Title>
+    <Calculator></Calculator>
 </template>
 
 <script>
-import Title from '@/components/Title.vue';
-
-export default{
+import Calculator from '../components/Calculator'
+export default {
+  components: { Calculator },
     setup(){
-        
-    },
-    components: {
-        Title,
+
     }
 }
-
 </script>
 
 <style>
